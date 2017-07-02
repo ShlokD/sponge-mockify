@@ -1,0 +1,18 @@
+{
+  "name": "sponge-mockify",
+  "main": "./lib/sponge-mockify",
+  "version": "0.0.0",
+  "description": "Atom plugin to convert any text to the mocking spongebob meme text",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "sponge-mockify:toggle"
+  },
+  "repository": "https://github.com/ShlokD/sponge-mockify",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

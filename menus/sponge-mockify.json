@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle sponge-mockify",
+        "command": "sponge-mockify:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "sponge-mockify",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "sponge-mockify:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
